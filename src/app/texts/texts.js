@@ -1,9 +1,10 @@
-const title = "Titulo del emprendimiento";
-const email = "Email del emprendimiento";
+const title = "INTER-ZTA";
+const email = "martha.com2023@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    `¡Hola! Estoy muy interesado en tus productos de ${title} y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!`
+    "¡Hola! Estoy interesado en conocer más sobre los productos de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = "Numero del emprendimiento";
+const numeroWhatsApp = "+573132438809"; // Incluido el prefijo +57
+
 const textos = {
     index: {
         title: title,
@@ -12,25 +13,24 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Descripción del emprendimiento parrafo uno",
-        description2: "Descripcion del emprendimiento parrafo dos"
+        description1: "En INTER-ZTA, nos especializamos en miscelánea y papelería. Ofrecemos una variedad de productos para satisfacer tus necesidades diarias. En nuestra tienda, cada detalle cuenta y nos esforzamos por brindar la mejor experiencia a nuestros clientes.",
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
-        email: email
+        email: email,
     },
     footer: {
-        slogan:{
-            p1: "slogan del emprendimiento parrafo uno",
-            p2: "slogan del emprendimiento parrafo dos"
+        slogan: {
+            p1: "INTERNET - HIJOS ALMACEN",
+            p2: ""
         },
-        address: "Dirección del emprendimiento",
+        address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
+        facebook: "https://www.facebook.com/share/y2msRSpPxAhUQD5L/?mibextid=qi2Omg", // Enlace específico de Facebook
+        instagram: "", // No se proporciona
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
-
 };
+
 export default textos;
